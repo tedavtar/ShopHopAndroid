@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp" android:layout_height="match_parent"
+    android:background="@color/asdjkasdf"
+    >
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageButton"
+        android:scaleType="centerCrop"
+        android:src="@drawable/berkeleybowl"
+        android:layout_row="0" />
+
+    <ImageButton
+
+        android:scaleType="centerCrop"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/sat" />
+
+    <ImageButton
+
+        android:scaleType="centerCrop"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/tj" />
+
+        </LinearLayout>
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+
+
+    <ImageButton
+
+        android:scaleType="centerCrop"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageButton4"
+        android:src="@drawable/fm" />
+
+    <ImageButton
+
+        android:scaleType="centerCrop"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageButton5"
+        android:src="@drawable/sw" />
+
+    <ImageButton
+
+        android:scaleType="centerCrop"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:adjustViewBounds="true"
+        android:id="@+id/imageButton6"
+        android:src="@drawable/lastone" />
+
+        </LinearLayout>
+
+</LinearLayout>
+
